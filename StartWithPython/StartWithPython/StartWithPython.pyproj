@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Container\Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="NumericTypes\MathOperator.py">
       <SubType>Code</SubType>
     </Compile>
@@ -29,11 +32,12 @@
     <Compile Include="String\BasicSyntax.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="String\MethodsAndOperations.py">
+    <Compile Include="String\MethodAndOperator.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Container\" />
     <Folder Include="String\" />
     <Folder Include="NumericTypes\" />
   </ItemGroup>
