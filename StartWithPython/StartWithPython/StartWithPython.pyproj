@@ -26,8 +26,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="StartWithPython.py" />
+    <Compile Include="String\BasicSyntax.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="String\MethodsAndOperations.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="String\" />
     <Folder Include="NumericTypes\" />
   </ItemGroup>
   <PropertyGroup>
