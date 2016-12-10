@@ -6,8 +6,10 @@ Here are store all my Python 3.5 Project divided by Folder.
 * _**StartWithPython**_
   this folder contains one solution project with a set of individual projects.Arguments are:
   
-  + _NumericTypes_ : here there is all math operator,..
-
+  + _NumericTypes_ : all python math is contained here 
+  + _Strings_ : syntax, method, operation with strings
+  + _Container_ : lists, tuple, dictionary and all that you can do with them
+  
 > ...  
 > ...  
 > ...  
