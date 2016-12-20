@@ -31,6 +31,9 @@
     <Compile Include="Loops\If_Statement.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Loops\Range.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="NumericTypes\MathOperator.py">
       <SubType>Code</SubType>
     </Compile>
