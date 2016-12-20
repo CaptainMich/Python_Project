@@ -25,6 +25,9 @@
     <Compile Include="Container\Lists.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Loops\Break_and_Continue.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Loops\For_Loop.py">
       <SubType>Code</SubType>
     </Compile>
