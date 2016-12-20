@@ -25,6 +25,9 @@
     <Compile Include="Container\Lists.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Loops\If_Statement.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="NumericTypes\MathOperator.py">
       <SubType>Code</SubType>
     </Compile>
@@ -38,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Container\" />
+    <Folder Include="Loops\" />
     <Folder Include="String\" />
     <Folder Include="NumericTypes\" />
   </ItemGroup>
