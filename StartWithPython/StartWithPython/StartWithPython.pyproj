@@ -22,33 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DataTypes\Dictionary.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DataTypes\Lists.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DataTypes\Sets.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DataTypes\String\BasicSyntax.py" />
-    <Compile Include="DataTypes\String\MethodAndOperator.py" />
-    <Compile Include="Loops\Break_and_Continue.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Loops\For_Loop.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Loops\If_Statement.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Loops\Range.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Loops\While_Loop.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="NumericTypes\MathOperator.py">
+    <Compile Include="Exercises\NumericTypes\Math.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="StartWithPython.py" />
@@ -63,11 +37,9 @@
     <Compile Include="Theory\Loops\While_Loop.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataTypes\" />
-    <Folder Include="DataTypes\String\" />
-    <Folder Include="Loops\" />
+    <Folder Include="Exercises\" />
+    <Folder Include="Exercises\NumericTypes\" />
     <Folder Include="Theory\" />
-    <Folder Include="NumericTypes\" />
     <Folder Include="Theory\DataTypes\NumericTypes\" />
     <Folder Include="Theory\DataTypes\String\" />
     <Folder Include="Theory\Loops\" />
