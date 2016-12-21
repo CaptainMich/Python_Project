@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Container\Dictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Container\Lists.py">
       <SubType>Code</SubType>
     </Compile>
