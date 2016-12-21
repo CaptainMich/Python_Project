@@ -69,13 +69,21 @@ while True:
 
 # -------------------------------------------------------------------------------------------------
 # Exercise_04
-# 
+# Write a Python program to compute the distance between the points (x1, y1) and (x2, y2). 
 # -------------------------------------------------------------------------------------------------
 
     elif(choice == 4):       
 
-        print('\nExercise_04')    
+        import math
 
+        print('\nExercise_04')  
+
+        p1 = [int(input('Enter the coordinates of the first point: ')) for x in range(2)]
+        p2 = [int(input('Enter the coordinates of the second point: ')) for x in range(2)]
+        distance = math.sqrt( ((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2) )
+
+        print('Distance between ' + str(p1) + ' and ' + str(p2) + ' is ' +  str(distance) + '\n')
+          
 # -------------------------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------------------------
 
