@@ -31,6 +31,8 @@
     <Compile Include="DataTypes\Sets.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataTypes\String\BasicSyntax.py" />
+    <Compile Include="DataTypes\String\MethodAndOperator.py" />
     <Compile Include="Loops\Break_and_Continue.py">
       <SubType>Code</SubType>
     </Compile>
@@ -50,18 +52,26 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="StartWithPython.py" />
-    <Compile Include="String\BasicSyntax.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="String\MethodAndOperator.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Theory\DataTypes\Dictionary.py" />
+    <Compile Include="Theory\DataTypes\Lists.py" />
+    <Compile Include="Theory\DataTypes\NumericTypes\MathOperator.py" />
+    <Compile Include="Theory\DataTypes\Sets.py" />
+    <Compile Include="Theory\Loops\Break_and_Continue.py" />
+    <Compile Include="Theory\Loops\For_Loop.py" />
+    <Compile Include="Theory\Loops\If_Statement.py" />
+    <Compile Include="Theory\Loops\Range.py" />
+    <Compile Include="Theory\Loops\While_Loop.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataTypes\" />
+    <Folder Include="DataTypes\String\" />
     <Folder Include="Loops\" />
-    <Folder Include="String\" />
+    <Folder Include="Theory\" />
     <Folder Include="NumericTypes\" />
+    <Folder Include="Theory\DataTypes\NumericTypes\" />
+    <Folder Include="Theory\DataTypes\String\" />
+    <Folder Include="Theory\Loops\" />
+    <Folder Include="Theory\DataTypes\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
