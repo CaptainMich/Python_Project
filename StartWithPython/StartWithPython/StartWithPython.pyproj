@@ -22,13 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Container\Dictionary.py">
+    <Compile Include="DataTypes\Dictionary.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Container\Lists.py">
+    <Compile Include="DataTypes\Lists.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Container\Sets.py">
+    <Compile Include="DataTypes\Sets.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Loops\Break_and_Continue.py">
@@ -58,7 +58,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Container\" />
+    <Folder Include="DataTypes\" />
     <Folder Include="Loops\" />
     <Folder Include="String\" />
     <Folder Include="NumericTypes\" />
