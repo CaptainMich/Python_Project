@@ -3,13 +3,24 @@ ___
 ![Alt text](http://jksofttechsolutions.com/blog/wp-content/uploads/2016/02/python-2.png "Python Logo")
 
 Here are store all my Python 3.5 Project divided by Folder.
-* _**StartWithPython**_
-  this folder contains one solution project with a set of individual projects.Arguments are:
+## StartWithPython ##
+  this folder contains one solution project with a set of individual projects.The project is divided by theory and exercises:
   
-  + _NumericTypes_ : all python math is contained here 
-  + _Strings_ : syntax, method, operation with strings
-  + _Container_ : lists, tuple, dictionary and all that you can do with them
-  
+  + _**Theory**_ :
+    + _DataTypes_ : lists, tuple, dictionary, sets 
+      + _NumericTypes_ : all python math is contained here 
+      + _Strings_ : syntax, method, operation with strings
+    + _Loops_ : for, if, range, while, break and continue 
+    
+  + _**Exercise**_ : 
+    + [ ] Dictionary
+    + [ ] List
+    + [ ] NumericTypes
+    + [ ] Sets
+    + [ ] Strings
+    + [ ] Tuple
+
+    
 > ...  
 > ...  
 > ...  
