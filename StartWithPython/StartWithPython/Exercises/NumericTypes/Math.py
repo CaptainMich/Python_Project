@@ -82,8 +82,47 @@ while True:
         p2 = [int(input('Enter the coordinates of the second point: ')) for x in range(2)]
         distance = math.sqrt( ((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2) )
 
-        print('Distance between ' + str(p1) + ' and ' + str(p2) + ' is ' +  str(distance) + '\n')
-          
+        print('\nDistance between ' + str(p1) + ' and ' + str(p2) + ' is ' +  str(distance) + '\n')
+
+# -------------------------------------------------------------------------------------------------
+# Exercise_05
+# Write a Python program to calculate the hypotenuse of a right angled triangle. 
+# -------------------------------------------------------------------------------------------------
+
+    elif(choice == 5):     
+
+        import math
+
+        print('\nExercise_05')
+        a = int(input('Please enter lenght of first catete: '))
+        b = int(input('Please enter lenght of second catete: '))  
+        hypotenuse = math.sqrt((a**2) + (b**2)) 
+
+        print('\nThe lenght of hypotenuse is ' + str(hypotenuse) + '\n')
+
+# -------------------------------------------------------------------------------------------------
+# Exercise_06
+# Write a Python program to calculate the Fibonacci series (not recursive way). 
+# -------------------------------------------------------------------------------------------------
+
+    elif(choice == 6):    
+        
+        def Fibonacci():
+            a, b = 0, 1
+            while True:            # First iteration:
+                yield a            # yield 0 to start with and then
+                a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)  
+    
+        print('\nExercise_05')
+        index_number = int(input('Please enter the number of terms: '))
+        
+        for index, fibonacci_number in enumerate(Fibonacci()):
+            print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
+            if index == index_number:
+                break
+
+        print('')
+         
 # -------------------------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------------------------
 
