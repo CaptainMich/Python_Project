@@ -15,10 +15,12 @@ Here are store all my Python 3.5 Project divided by Folder.
   + _**Exercise**_ : 
     + [ ] Dictionary
     + [ ] List
-    + [ ] NumericTypes
+    + [X] Math
     + [ ] Sets
     + [ ] Strings
+    + [X] System
     + [ ] Tuple
+
 
     
 > ...  
