@@ -70,6 +70,34 @@ while True:
         print('')
 
 # -------------------------------------------------------------------------------------------------
+# Exercise_06
+# Write a Python program to test whether the system is a big-endian platform or little-endian platform
+# -------------------------------------------------------------------------------------------------
+
+    elif(choice == 6):
+
+        import sys
+        
+        print('\nExercise_06')
+        if sys.byteorder == "little":
+            print("Little-endian platform.\n")
+        else:
+            print("Big-endian platform.\n")
+
+# -------------------------------------------------------------------------------------------------
+# Exercise_07
+# Write a Python program to get the size of an object in bytes.
+# -------------------------------------------------------------------------------------------------
+
+    elif(choice == 7):
+
+        import sys
+
+        print('\nExercise_07')
+        user_input = (input('Please enter something, tell you the size: '))
+        print("Memory size of '"+ user_input + "' = " + str(sys.getsizeof(user_input)) + " bytes\n")
+
+# -------------------------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------------------------
 
     else:
