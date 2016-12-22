@@ -25,6 +25,9 @@
     <Compile Include="Exercises\NumericTypes\Math.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Exercises\System\System.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="StartWithPython.py" />
     <Compile Include="Theory\DataTypes\Dictionary.py" />
     <Compile Include="Theory\DataTypes\Lists.py" />
@@ -38,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exercises\" />
+    <Folder Include="Exercises\System\" />
     <Folder Include="Exercises\NumericTypes\" />
     <Folder Include="Theory\" />
     <Folder Include="Theory\DataTypes\NumericTypes\" />
