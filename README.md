@@ -7,10 +7,10 @@ Here are store all my Python 3.5 Project divided by Folder.
   this folder contains one solution project with a set of individual projects.The project is divided by theory and exercises:
   
   + _**Theory**_ :
-    + _DataTypes_ : lists, tuple, dictionary, sets 
+    + _DataTypes_ : lists, tuple, dictionary, sets, string 
       + _NumericTypes_ : all python math is contained here 
-      + _Strings_ : syntax, method, operation with strings
-    + _Loops_ : for, if, range, while, break and continue 
+    + _Loops_ : for, if, range, while, break and continue
+    + _OOP_ : cooming soon
     
   + _**Exercise**_ : 
     + [ ] Dictionary
