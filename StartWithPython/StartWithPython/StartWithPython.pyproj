@@ -36,12 +36,13 @@
     <Compile Include="Theory\DataTypes\String.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Theory\DataTypes\String\BasicSyntax.py" />
-    <Compile Include="Theory\DataTypes\String\MethodAndOperator.py" />
     <Compile Include="Theory\Functions\Function.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Theory\Loops\Break_and_Continue.py" />
+    <Compile Include="Theory\Loops\Exception.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Theory\Loops\For_Loop.py" />
     <Compile Include="Theory\Loops\If_Statement.py" />
     <Compile Include="Theory\Loops\Range.py" />
@@ -53,7 +54,6 @@
     <Folder Include="Exercises\NumericTypes\" />
     <Folder Include="Theory\" />
     <Folder Include="Theory\DataTypes\NumericTypes\" />
-    <Folder Include="Theory\DataTypes\String\" />
     <Folder Include="Theory\Loops\" />
     <Folder Include="Theory\DataTypes\" />
     <Folder Include="Theory\Functions\" />

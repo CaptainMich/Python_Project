@@ -1,0 +1,19 @@
+# -------------------------------------------------------------------------------------------------
+# EXCEPTION
+# -------------------------------------------------------------------------------------------------
+
+print('\n\t\tEXCEPTION\n')
+
+while True:
+    try:                                                            # to handling some user error 
+        number = int(input("What's your favorite numbers? "))       # ...	
+        print(18/number)                                            # ...
+        break                                                       # ...
+    except ValueError:                                              # except a particular error (1)
+        print("You must input a number")                            # ...
+    except ZeroDivisionError:                                       # except a particular error (2)
+        print("Don't pick zero")                                    # ...
+    except:                                                         # except any kind of error (don't use it if is possible)
+        break                                                       # ...
+    finally:                                                        # do some other action, no matter what the problem is
+        print("Loop Complete\n")		
