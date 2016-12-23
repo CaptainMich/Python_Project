@@ -33,6 +33,11 @@
     <Compile Include="Theory\DataTypes\Lists.py" />
     <Compile Include="Theory\DataTypes\NumericTypes\MathOperator.py" />
     <Compile Include="Theory\DataTypes\Sets.py" />
+    <Compile Include="Theory\DataTypes\String.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Theory\DataTypes\String\BasicSyntax.py" />
+    <Compile Include="Theory\DataTypes\String\MethodAndOperator.py" />
     <Compile Include="Theory\Functions\Function.py">
       <SubType>Code</SubType>
     </Compile>
