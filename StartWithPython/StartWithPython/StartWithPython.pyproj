@@ -33,6 +33,9 @@
     <Compile Include="Theory\DataTypes\Lists.py" />
     <Compile Include="Theory\DataTypes\NumericTypes\MathOperator.py" />
     <Compile Include="Theory\DataTypes\Sets.py" />
+    <Compile Include="Theory\Functions\Function.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Theory\Loops\Break_and_Continue.py" />
     <Compile Include="Theory\Loops\For_Loop.py" />
     <Compile Include="Theory\Loops\If_Statement.py" />
@@ -48,6 +51,8 @@
     <Folder Include="Theory\DataTypes\String\" />
     <Folder Include="Theory\Loops\" />
     <Folder Include="Theory\DataTypes\" />
+    <Folder Include="Theory\Functions\" />
+    <Folder Include="Theory\OOP\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
