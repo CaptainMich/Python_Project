@@ -29,9 +29,9 @@ print ('')
 print('\n\t\tRETURN VALUES\n')
 
 
-def sample(number):                                     # define the function
-	operation = (number / 2 + 7)                       # body of the function
-	return operation                                   # return a value
+def sample(number):                                    # define the function
+    operation = (number / 2 + 7)                       # body of the function
+    return operation                                   # return a value
 
 
 test_sample = sample(20)                                # storage the returned value in a variable

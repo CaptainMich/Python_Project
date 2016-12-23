@@ -1,14 +1,15 @@
-#WHILE
+# -------------------------------------------------------------------------------------------------
+# WHILE
+# -------------------------------------------------------------------------------------------------
 	
-print('\n\t\tWHILE\t\t\n')
+print('\n\t\tWHILE\n')
 
-variable = 0									# first example
-												# ...
-while variable < 5:								# ...
-	print("Spam")								# ...
-	variable += 1								# ...
+variable = 0                                                    # first example
+                                                                # ...
+while variable < 5:                                             # ...
+    print("Spam")                                               # ...
+    variable += 1                                               # ...
 
-print('')
-
-while True:										# infinite loop
-	print('Doing Something')
+input('\nPress any key to start infinite loop ')                  # infinite loop
+while True:                                                     
+    print('Doing Something')
