@@ -10,7 +10,7 @@ Here are store all my Python 3.5 Project divided by Folder.
     + _DataTypes_ : lists, tuple, dictionary, sets, string 
       + _NumericTypes_ : all python math is contained here 
     + _Loops_ : for, if, range, while, break and continue
-    + _OOP_ : cooming soon
+    + _OOP_ : class, (inheritance and threading cooming soon)
     
   + _**Exercise**_ : 
     + [ ] Dictionary
