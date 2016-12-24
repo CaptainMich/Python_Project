@@ -47,6 +47,9 @@
     <Compile Include="Theory\Loops\If_Statement.py" />
     <Compile Include="Theory\Loops\Range.py" />
     <Compile Include="Theory\Loops\While_Loop.py" />
+    <Compile Include="Theory\OOP\Class.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exercises\" />
