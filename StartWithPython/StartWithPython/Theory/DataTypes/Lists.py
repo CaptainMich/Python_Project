@@ -69,24 +69,36 @@ matrix = [[1,2,3],                                      # 3 x 3 Matrix, as neste
 
 print(matrix)                                           # print entire list
 print(matrix[1])                                        # print row 2
-print(matrix[1][2])                                     # print element 3 of the row 2
+print(matrix[1][2], '\n')                               # print element 3 of the row 2
 
 col2 = [row[1] for row in matrix]                       # collect the items in column 2
 print(col2)                                             # to see the change
 
 print(matrix)                                           # matrix is unchanges
+print('')                                               
                                                         # .. some other examples
 print([row[1] + 1 for row in matrix])                   # add 1 to each item in column 2
 print([row[1] for row in matrix if row[1] % 2 == 0])    # filter out odd items of column 2
+print('')
 
 diag = [matrix[i][i] for i in [0,1,2]]                  # collect diagonal from matrix
 print(diag)                                             # to see the result
 
 doubles = [letter * 2 for letter in 'spam']             # repeat character in a string
-print(doubles)                                          # to see the result
+print(doubles, '\n')                                    # to see the result
 
+Generator = (sum(row) for row in matrix)                # create a generator of row sum (sum items in a sequence)
+print(next(Generator))                                  # ...            
+print(next(Generator))                                  # run the iteration protocol next()
+print(next(Generator))                                  # ...
 
+print(list(map(sum,matrix)))                            # map sum over items in matrix
 
+print({sum(row) for row in matrix})                     # create a set of row sums
+print({i : sum(matrix[i]) for i in range(3)})           # creates key/value table of row sums
+print('')
 
-
+print([ord(x) for x in 'spaam'])                        # list of character ordinals
+print({ord(x) for x in 'spaam'})                        # sets remove duplicates
+print({x: ord(x) for x in 'spaam'})                     # dictionary keys are unique
 
