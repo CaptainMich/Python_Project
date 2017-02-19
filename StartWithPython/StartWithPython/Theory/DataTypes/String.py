@@ -42,7 +42,7 @@ print(user[-4])                         # ...
 		
 print('')
 
-print(user[1:3])                        # to slicing up a string[from character 'x' to(:) character 'y')
+print(user[1:3])                        # to slicing up a string[from character 'x' to(:) character 'y' not including 'y')
 print(user[0:4])                        # ...
 print(user[1:])                         # ...
 print(user[:])                          # ...
@@ -59,7 +59,7 @@ print(user)                             # notice that the originally string is n
 
 print(user.upper())                     # convert all the contenent upper or lowercase 
 print(user.isalpha())                   # find out if all the character in the string are alphabetic and return true if there is at least one character, 						 
-                                        # false otherwise least one character, false otherwise	
+                                        # false otherwise
 
 line = 'aaa,bbb,cccccc,dd\n'
 
