@@ -70,3 +70,22 @@ print(line.rstrip().split())            # combine two operation
 
 print('%s, eggs, and %s' % ('spam', 'SPAM!'))           # formatting expression
 print('{}, eggs, and {}'.format('spam', 'SPAM!'))       # formatting_Method
+
+# -------------------------------------------------------------------------------------------------
+# PATTERN MATCHING
+# -------------------------------------------------------------------------------------------------
+
+import re                                                       
+
+str_example = 'Hello    Python world'                           # search for a substring that begins with the word "Hello" followed by zero or more tabs 
+match = re.match('Hello[\t]*(.*)world', str_example)            # or space, followed by arbitrary characters 
+print(match.group(1))                                           # saved as matched group (avaiable only if a substring is found)
+
+pattern = '/usr/home/testuser'                                  # another example that picks out three groups separated by slashes
+match = re.match('[/:](.*)[/:](.*)[/:](.*)', pattern)           # ...
+print(match.groups())                                           # ...
+
+match = re.split('[/:]', pattern)                               # in this case split give out the same result as previous one
+print(match)                                                    # ...
+
+
