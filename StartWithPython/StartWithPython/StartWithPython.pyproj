@@ -36,6 +36,9 @@
     <Compile Include="Theory\DataTypes\String.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Theory\DataTypes\Tuples.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Theory\Functions\Function.py">
       <SubType>Code</SubType>
     </Compile>
